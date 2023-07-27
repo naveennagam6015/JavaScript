@@ -18,3 +18,10 @@ if (month > 12) {
 } else {
     console.log("Select A month")
 }
+ 
+function myFunction(){ 
+    const node = document.createElement("li");
+    const textnode = document.createTextNode("Home");
+    node.appendChild(textnode);
+    document.getElementById("myList").appendChild(node);
+    }
